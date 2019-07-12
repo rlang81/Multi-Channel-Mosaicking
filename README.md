@@ -33,6 +33,7 @@ Clone the repository and run compile_gc.m (in GCmex2.0 directory) to build the M
 ### 2) Usage and File Descriptions
 
 **Files**
+
 Test_Mosaic.m - Test "main" program to show mosaicking capabilities, accesses data from "Test_Data" directory
 
 mchannel_nxcorr_reg_GPU.m - Function for cross-correlation based m-channel mosaicking alignment/registration
@@ -40,6 +41,7 @@ mchannel_nxcorr_reg_GPU.m - Function for cross-correlation based m-channel mosai
 Frame_Blend.m & stitchImages.m - Functions for implementing Kose's graph-cut based stitching
 
 **Directories**
+
 GCmex2.0 - Matlab wrapper by Shai Bagon that implements graph-cut minimization
 
 Test_Data - Contains some test images for showing mosaicking capabilities. Each sub-folder in this directory will be treated as a data channel, and within each sub-directory should be an equal number of sequential images labelled "frame#.tif", where the # is replaced by the image number tag starting at 0. The test data only mosaics 2 images - there is no theoretical limit to the number of possible sequential images, it is constrained by system memory.
