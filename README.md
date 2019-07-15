@@ -9,7 +9,7 @@ The graph-cut based stitching is under patent protection. In order to use the co
 
 **Novel mosaicking algorithm:**
 
-[a] Journal of Biomedical Optics -- PENDING REVIEW
+[a] Multi-channel correlation improves the noise tolerance of real-time hyperspectral micro-image mosaicking. Ryan T. Lang et al., Journal of Biomedical Optics. **Submitted and pending review.**
 
 **Graph-cut based stitching implementation:**
 
