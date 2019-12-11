@@ -1,5 +1,5 @@
 # Multi-Channel-Mosaicking
-Public repository for multi-channel mosaicking algorithm, as described in JBO publication.
+Public repository for multi-channel mosaicking algorithm, as described in JBO publication: https://doi.org/10.1117/1.JBO.24.12.126002.
 Written in Matlab R2019a (Mathworks). 
 
 Included in this repository is an implementation of graph-cut based stitching, as done by Kose et al., which greatly increases the quality of mosaics. This implementation is based on a Matlab wrapper by Shai Bagon:
@@ -9,7 +9,7 @@ The graph-cut based stitching is under patent protection. In order to use the co
 
 **Novel mosaicking algorithm:**
 
-[a] Journal of Biomedical Optics -- PENDING REVIEW
+[a] Multichannel correlation improves the noise tolerance of real-time hyperspectral microimage mosaicking. Ryan T. Lang et al., Journal of Biomedical Optics, vol. 24, no. 12, December 2019, 126002.
 
 **Graph-cut based stitching implementation:**
 
